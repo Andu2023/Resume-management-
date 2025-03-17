@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ResumeManagmnet\\backend\\backend\\backend.csproj": {}
+    "C:\\AnduA\\ResumeManagmnet\\Asp.net_backend\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\ResumeManagmnet\\backend\\backend\\backend.csproj": {
+    "C:\\AnduA\\ResumeManagmnet\\Asp.net_backend\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ResumeManagmnet\\backend\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\AnduA\\ResumeManagmnet\\Asp.net_backend\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\ResumeManagmnet\\backend\\backend\\backend.csproj",
+        "projectPath": "C:\\AnduA\\ResumeManagmnet\\Asp.net_backend\\backend\\backend.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\ResumeManagmnet\\backend\\backend\\obj\\",
+        "outputPath": "C:\\AnduA\\ResumeManagmnet\\Asp.net_backend\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -78,6 +83,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -86,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }
